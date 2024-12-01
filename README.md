@@ -1,29 +1,16 @@
-# vueJuegos
+# Tienda de Videojuegos
 
-This template should help get you started developing with Vue 3 in Vite.
+Una aplicación dinámica para gestionar el inventario de videojuegos. Permite incrementar o decrementar el stock de cada juego en tiempo real y visualizar datos organizados en una tabla.
 
-## Recommended IDE Setup
+## Características
+- **Gestión de Inventario:** Incrementa y decrementa el stock de videojuegos directamente desde la interfaz.
+- **Datos Locales:** Los datos de los videojuegos se cargan desde un archivo JSON simulado como backend.
+- **Renderizado Dinámico:** Uso de `v-for` para generar filas dinámicas en una tabla basada en los datos cargados.
+- **Validaciones:** Evita que el stock sea negativo.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+## Tecnologías Utilizadas
+- **Vue.js:** Framework principal para la construcción de la interfaz.
+- **Vuex:** Manejo de estado global para sincronizar y actualizar datos del inventario.
+- **Axios:** Carga de datos desde un archivo JSON local.
+- **CSS:** Estilización básica para la tabla y los botones.
 
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
-
-```sh
-npm install
-```
-
-### Compile and Hot-Reload for Development
-
-```sh
-npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
-npm run build
-```
